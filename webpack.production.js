@@ -55,7 +55,8 @@ module.exports = merge(common, {
 
         new CopyPlugin({
           patterns: [
-            { from: './public/manifest', to: 'manifest' }
+            { from: './public/manifest', to: 'manifest' },
+            { from: './src/assets/icon.png', to: 'imgs' }
             
           ],
         }),
