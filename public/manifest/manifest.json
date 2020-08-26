@@ -3,18 +3,18 @@
     "name": "React PWA",
     "icons": [
       {
-        "src": "/src/assets/icon.png",
+        "src": "/dist/imgs/icon.png",
         "sizes": "96x96",
         "type": "image/png"
       },
       {
-        "src": "/src/assets/icon.png",
+        "src": "/dist/imgs/icon.png",
         "type": "image/png",
         "sizes": "144x144"
       },
 
       {
-        "src": "/src/assets/icon.png",
+        "src": "/dist/imgs/icon.png",
         "type": "image/png",
         "sizes": "192x192"
       }
