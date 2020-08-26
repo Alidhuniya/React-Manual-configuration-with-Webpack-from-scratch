@@ -2,8 +2,8 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const common = require("./webpack.common");
 const { merge } = require("webpack-merge");
-const WorkboxPlugin = require('workbox-webpack-plugin'); 
-const CopyPlugin = require('copy-webpack-plugin');
+// const WorkboxPlugin = require('workbox-webpack-plugin'); 
+// const CopyPlugin = require('copy-webpack-plugin');
 
 
 module.exports = merge(common, {
@@ -45,19 +45,19 @@ module.exports = merge(common, {
 
    
 
-    new WorkboxPlugin.GenerateSW({
+    // new WorkboxPlugin.GenerateSW({
            // these options encourage the ServiceWorkers to get in there fast
           // and not allow any straggling "old" SWs to hang around
-           clientsClaim: true,
-           skipWaiting: true
-        }),
+    //        clientsClaim: true,
+    //        skipWaiting: true
+    //     }),
 
-        new CopyPlugin({
-          patterns: [
-            { from: './public/manifest', to: 'manifest' }
+    //     new CopyPlugin({
+    //       patterns: [
+    //         { from: './public/manifest', to: 'manifest' }
             
-          ],
-        }),
+    //       ],
+    //     }),
 
     
   ],
