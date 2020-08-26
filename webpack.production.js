@@ -7,7 +7,8 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 
 module.exports = merge(common, {
-  mode: 'production',
+  mode: 'production', // solved from here: https://github.com/webpack/webpack/issues/3486
+  performance: { hints: false },
   output: {
    
     path: path.resolve(__dirname, 'dist'), // this will open index.html file in dist folder by default
