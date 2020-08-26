@@ -1,1 +1,1 @@
-# hairSalon Shop with React and Strapi Headless CMS
+# React App Manual Configuration
