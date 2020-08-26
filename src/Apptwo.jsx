@@ -12,7 +12,7 @@ class Apptwo extends Component {
                 </div>
 
                 <div>
-                    <p>Description: Hello World 2 from webpack and babel</p>
+                    <p>Description2: Hello World 2 from webpack and babel</p>
                 </div>
             </Fragment>
 
