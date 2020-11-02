@@ -1,7 +1,8 @@
+
 import React, {Component, Fragment} from "react";
-import Apptwo from './Apptwo';
+import Apptwo from "./Apptwo";
 import "./App.scss";
-import logo from "./assets/icon.png";
+import logo from "./assets/logo.svg";
 
 class App extends Component {
 
@@ -12,14 +13,14 @@ class App extends Component {
             <Fragment>
             <header className = "header">
             <div>
-                <img src={logo}  />
+             <img src={logo} />
             </div>
                 <div>
-                    <h1>Heading 1</h1>
+                    <h1>Main Header</h1>
                 </div>
 
                 <div>
-                    <p>Description: Hello World from webpack and babel</p>
+                    <p>Description: Hello World from webpack and typescript</p>
                 </div>
 
                 <Apptwo />

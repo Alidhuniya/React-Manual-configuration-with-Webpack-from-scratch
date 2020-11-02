@@ -8,7 +8,7 @@ class Apptwo extends Component {
 
             <Fragment>
                 <div>
-                    <h1> Header 2</h1>
+                    <h1> Sub Header</h1>
                 </div>
 
                 <div>

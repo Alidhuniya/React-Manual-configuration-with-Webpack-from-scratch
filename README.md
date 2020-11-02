@@ -1,3 +1,1 @@
-# React App Manual Configuration
-
-# deployed
+# React App Manual Configuration with Typescript and Webpack
